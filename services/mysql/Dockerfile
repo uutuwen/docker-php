@@ -1,0 +1,5 @@
+ARG MYSQL_IMAGE_TAG
+
+FROM mysql:${MYSQL_IMAGE_TAG}
+
+RUN chmod 0777 -R /var/log
